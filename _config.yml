@@ -20,6 +20,7 @@
 
 # variables supported by leap-day theme
 title: Leap Day theme
+repository: 57maker/57maker.github.io
 description: Leap Day is a theme for GitHub Pages.
 show_downloads: false
 google_analytics:
