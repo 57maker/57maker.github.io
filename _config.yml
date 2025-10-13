@@ -26,7 +26,7 @@ show_downloads: false
 google_analytics:
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://57maker.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: jekyll-theme-leap-day
@@ -34,6 +34,8 @@ theme: jekyll-theme-leap-day
 # - jekyll-feed
 
 github: [metadata]
+markdown: GFM
+encoding: UTF-8
 
 # Exclude from processing.
 # The following items will not be processed, by default.
