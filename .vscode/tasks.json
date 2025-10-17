@@ -6,7 +6,7 @@
         {
             "label": "Run Jekyll",
             "type": "shell",
-            "command": "bundle exec jekyll serve",
+            "command": "bundle exec jekyll serve --host=0.0.0.0",
             "problemMatcher": []
         }
     ]
