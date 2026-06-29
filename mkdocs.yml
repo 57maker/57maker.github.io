@@ -1,0 +1,41 @@
+site_name: 57maker自造工坊
+site_url: https://57maker.github.io/
+repo_url: https://github.com/57maker/57maker.github.io
+repo_name: 57maker/57maker.github.io
+
+
+theme:
+  name: material
+  logo: assets/logo.png
+
+  icon:
+    repo: fontawesome/brands/github
+
+  font:
+    text: Chiron GoRound TC
+    code: Roboto Mono
+
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  features:
+    - navigation.instant
+    - search.suggest
+    - search.highlight
