@@ -7,6 +7,7 @@ repo_name: 57maker/57maker.github.io
 theme:
   name: material
   logo: assets/logo.png
+  custom_dir: overrides
 
   icon:
     repo: fontawesome/brands/github
@@ -37,5 +38,6 @@ theme:
 
   features:
     - navigation.instant
+    - navigation.footer
     - search.suggest
     - search.highlight
